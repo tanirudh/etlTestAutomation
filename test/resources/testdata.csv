@@ -1,3 +1,17 @@
-name, varchar2, 128, false
-age, int, 32, false
-phoneNumber, varchar2, 32, true
+appId, int(10) unsigned
+appName, varchar(128)
+appDescription, varchar(512)
+serviceId, int(10) unsigned
+clientAppId, int(10) unsigned
+payloadId, int(10) unsigned
+risk_index, int(10) unsigned
+productivity_index, int(10) unsigned
+navlGuid, varchar(16)
+lastChanged, timestamp
+isServer, tinyint(1)
+isClient, tinyint(1)
+isWebApp, tinyint(1)
+service_snort_key, varchar(255)
+min_version, int(10)
+deleted, int(10)
+deleted_version, int(10)
