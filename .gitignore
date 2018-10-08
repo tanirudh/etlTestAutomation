@@ -4,4 +4,5 @@
 __pycache__/*
 */reports/*
 reports/*
+*/html_report/*
 *.pyc
